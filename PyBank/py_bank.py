@@ -1,4 +1,6 @@
-# Initialize variables and constants
+# Initialize imports, variables, and constants
+import csv
+
 DATE_COLUMN = 0
 PNL_COLUMN = 1
 
@@ -8,7 +10,6 @@ average_change = 0
 greatest_increase = ['', '0']
 greatest_decrease = ['', '0']
 
-import csv
 
 # Read data from csv
 with open ('./Resources/budget_data.csv') as csv_file:
